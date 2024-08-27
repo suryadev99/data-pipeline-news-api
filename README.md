@@ -129,4 +129,4 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 <!-- CONTACT -->
 ## Contact
 Please feel free to contact me if you have any questions.
-[Suryadev](https://www.linkedin.com/in/klisdamian/) [@suryadev99](https://twitter.com/suryadev_99)
+[Suryadev](https://www.linkedin.com/in/surya-dev-01410072/) [@suryadev99](https://twitter.com/suryadev_99)
