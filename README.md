@@ -1,5 +1,5 @@
 # End to End Data Pipeline for News API
-[![Build Status](https://travis-ci.com/damklis/DataEngineeringProject.svg?branch=master)](https://travis-ci.org//damklis/DataEngineeringProject) [![Coverage Status](https://coveralls.io/repos/github/damklis/DataEngineeringProject/badge.svg?branch=master)](https://coveralls.io/github/damklis/DataEngineeringProject?branch=master) [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-360/)
+ [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
 
 
 **End to End Data Pipeline for News API** is an implementation of the data pipeline which consumes the latest news from RSS Feeds and makes them available for users via handy API.
@@ -129,4 +129,4 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 <!-- CONTACT -->
 ## Contact
 Please feel free to contact me if you have any questions.
-[Suryadev](https://www.linkedin.com/in/surya-dev-01410072/) [@suryadev99](https://twitter.com/suryadev_99)
+[linkedin](https://www.linkedin.com/in/surya-dev-01410072/) [@X](https://twitter.com/suryadev_99)
