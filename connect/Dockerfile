@@ -1,9 +1,9 @@
-FROM confluentinc/cp-kafka-connect-base:5.3.1
+FROM  cnfldemos/cp-server-connect-datagen:0.6.4-7.6.0
 
-RUN confluent-hub install --no-prompt mongodb/kafka-connect-mongodb:latest \
-&& confluent-hub install --no-prompt confluentinc/kafka-connect-elasticsearch:5.4.0 \
-&& confluent-hub install --no-prompt debezium/debezium-connector-mongodb:0.10.0 \
-&& confluent-hub install --no-prompt confluentinc/kafka-connect-s3:latest
+RUN confluent-hub install --no-prompt mongodb/kafka-connect-mongodb:1.11.2 \
+&& confluent-hub install --no-prompt confluentinc/kafka-connect-elasticsearch:14.0.3 \
+&& confluent-hub install --no-prompt debezium/debezium-connector-mongodb:2.3.0.Final \
+&& confluent-hub install --no-prompt confluentinc/kafka-connect-s3:10.5.7
 
 ENV CONNECT_KAFKA_HEAP_OPTS "-Xms512m -Xmx512m"
 ENV CONNECT_CONFIG_STORAGE_TOPIC "connect-configs"
@@ -23,6 +23,10 @@ ADD connectors /etc/kafka-connect/connectors
 
 WORKDIR /etc/kafka-connect/connectors
 
+USER root
+
 RUN chmod +x ./register_connectors.sh
+
+RUN ls -l /etc/kafka-connect/connectors
 
 CMD ["./register_connectors.sh"]

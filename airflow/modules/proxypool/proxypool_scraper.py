@@ -1,7 +1,8 @@
 from bs4 import BeautifulSoup
 from dataclasses import dataclass, field
-from parser import WebParser
+from news_parser import WebParser
 from log import log
+# from ..news_parser.web_parser import WebParser
 
 
 @dataclass
@@ -46,7 +47,7 @@ class ProxyPoolScraper:
         soup_object = BeautifulSoup(content, self.bs_parser)
         return (
             soup_object
-            .find(id="proxylisttable")
+            .find(id="list")
             .find_all("tr")
         )
 

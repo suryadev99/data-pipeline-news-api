@@ -24,7 +24,12 @@ class Config:
             "https://www.eyefootball.com/football_news.xml",
             "https://www.101greatgoals.com/feed/",
             "https://sportslens.com/feed/",
-            "https://deadspin.com/rss"
+            "https://deadspin.com/rss" ,
+            "https://www.cricbuzz.com/cricket-news/editorial/live-blogs?utm_source=feedspot",
+            "https://www.espncricinfo.com/rss/content/story/feeds/6.xml",
+            "https://www.espncricinfo.com/rss/content/story/feeds/6.xml",
+            "https://crickettimes.com/?utm_source=feedspot#google_vignette",
+            "https://cricketaddictor.com/feed/"
         ],
         "pl": [
             "https://weszlo.com/feed/",

@@ -1,7 +1,7 @@
 import re
 from dataclasses import dataclass
 import atoma
-from parser import WebParser
+from news_parser import WebParser
 
 
 @dataclass(frozen=True)

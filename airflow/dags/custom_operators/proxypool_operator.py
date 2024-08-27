@@ -34,8 +34,11 @@ class ProxyPoolOperator(BaseOperator):
     @retry(5)
     def execute(self, context):
         proxy_scraper = ProxyPoolScraper(self.proxy_webpage)
+        print(proxy_scraper)
         proxy_validator = ProxyPoolValidator(self.testing_url)
+        print(proxy_validator)
         proxy_stream = proxy_scraper.get_proxy_stream(self.number_of_proxies)
+        print(proxy_stream)
 
         with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
             results = executor.map(
@@ -45,6 +48,7 @@ class ProxyPoolOperator(BaseOperator):
             sorted_valid_proxies = sorted(
                 valid_proxies, key=lambda x: x.health, reverse=True
             )
+        print(sorted_valid_proxies)
 
         with RedisProxyPoolClient(self.redis_key, self.redis_config) as client:
             client.override_existing_proxies(

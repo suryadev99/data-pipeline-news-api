@@ -37,8 +37,14 @@ class RSSNewsOperator(BaseOperator):
     @retry(5)
     def execute(self, context):
         validator = NewsValidator(self.validator_config)
+        self.logger.info(validator)
         producer = NewsProducer(self.rss_feed, self.language)
+        self.logger.info(producer)
+        self.logger.info("redis")
         redis = RedisProxyPoolClient(self.redis_key, self.redis_config)
+        self.logger.info(redis)
+        self.logger.info("after redis")
+
 
         with NewsExporter(self.bootstrap_servers) as exporter:
             proxy = redis.get_proxy()

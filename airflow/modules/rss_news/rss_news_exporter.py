@@ -6,7 +6,7 @@ from kafka import KafkaProducer
 class NewsExporter:
     def __init__(self, bootstrap_servers):
         self._producer = self._connect_producer(
-            bootstrap_servers
+            "kafka:19092"
         )
 
     def _connect_producer(self, bootstrap_servers):
@@ -14,7 +14,7 @@ class NewsExporter:
             return json.dumps(value).encode("utf-8")
 
         producer = KafkaProducer(
-            bootstrap_servers=bootstrap_servers,
+            bootstrap_servers="kafka:19092",
             value_serializer=lambda x: encode_news(x)
         )
         return producer

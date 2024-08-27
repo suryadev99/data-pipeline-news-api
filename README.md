@@ -1,8 +1,8 @@
-# Data Engineering Project 
+# End to End Data Pipeline for News API
 [![Build Status](https://travis-ci.com/damklis/DataEngineeringProject.svg?branch=master)](https://travis-ci.org//damklis/DataEngineeringProject) [![Coverage Status](https://coveralls.io/repos/github/damklis/DataEngineeringProject/badge.svg?branch=master)](https://coveralls.io/github/damklis/DataEngineeringProject?branch=master) [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
 
-**Data Engineering Project** is an implementation of the data pipeline which consumes the latest news from RSS Feeds and makes them available for users via handy API.
+**End to End Data Pipeline for News API** is an implementation of the data pipeline which consumes the latest news from RSS Feeds and makes them available for users via handy API.
 The pipeline infrastructure is built using popular, open-source projects.
 
 **Access the latest news and headlines in one place.** :muscle:
@@ -52,7 +52,7 @@ It runs periodically every X minutes producing micro-batches.
 <!-- PREREQUISITES -->
 ## Prerequisites
 Software required to run the project. Install:
-- [Docker](https://docs.docker.com/get-docker/)
+- [Docker](https://docs.docker.com/get-docker/) - You must allocate a minimum of 8 GB of Docker memory resource.
 - [Python 3.8+ (pip)](https://www.python.org/)
 - [docker-compose](https://docs.docker.com/compose/install/)
 
@@ -91,42 +91,34 @@ Read detailed [documentation](api) on how to interact with data collected by pip
 Example searches:
 - see all news
 ```
-http://0.0.0.0:5000/api/v1/news/ 
+http://127.0.0.1:5000/api/v1/news/ 
 ```
--  add `search_fields` title and description, see all of the news containing the `Robert Lewandowski` phrase
+-  add `search_fields` title and description, see all of the news containing the `Virat Kohli` phrase
 ```
-http://0.0.0.0:5000/api/v1/news/?search=Robert%20Lewandowski 
-```
-
-- find news containing the `Lewandowski` phrase in their titles
-
-```
-http://0.0.0.0:5000/api/v1/news/?search=title|Lewandowski 
+http://127.0.0.1:5000/api/v1/news/?search=Virat%20Kohli 
 ```
 
-- see all of the polish news containing the `Lewandowski` phrase
+- find news containing the `Kohli` phrase in their titles
 
 ```
-http://0.0.0.0:5000/api/v1/news/?search=lewandowski&language=pl
+http://127.0.0.1:5000/api/v1/news/?search=title|Kohli
 ```
 
-<!-- REFERENCES -->
-## References
-Inspired by following codes, articles and videos:
+- see all the english news containing the `Kohli` phrase
 
-* [How we launched a data product in 60 days with AWS](https://towardsdatascience.com/launching-beta-data-product-within-two-month-with-aws-6ac6b55a9b5d)
-* [Toruń JUG #55 - "Kafka Connect - szwajcarski scyzoryk w rękach inżyniera?" - Mariusz Strzelecki](https://www.youtube.com/watch?v=iiz6t8g5t6Q)
-* [Kafka Elasticsearch Sink Connector and the Power of Single Message Transformations](https://sap1ens.com/blog/2020/05/23/kafka-elasticsearch-sink-connector-and-the-power-of-single-message-transformations/)
-* [Docker Tips and Tricks with Kafka Connect, ksqlDB, and Kafka](https://rmoff.net/2018/12/15/docker-tips-and-tricks-with-kafka-connect-ksqldb-and-kafka/)
+```
+http://127.0.0.1:5000/api/v1/news/?search=kohli&language=en
+```
+
 
 <!-- CONTRIBUTIONS -->
 ## Contributions
 Contributions are what makes the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b new_feature`)
+3. Commit your Changes (`git commit -m 'Add some features'`)
+4. Push to the Branch (`git push origin new_feature`)
 5. Open a Pull Request
 
 <!-- LICENSE -->
@@ -137,4 +129,4 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 <!-- CONTACT -->
 ## Contact
 Please feel free to contact me if you have any questions.
-[Damian Kliś](https://www.linkedin.com/in/klisdamian/) [@DamianKlis](https://twitter.com/DamianKlis)
+[Suryadev](https://www.linkedin.com/in/klisdamian/) [@suryadev99](https://twitter.com/suryadev_99)

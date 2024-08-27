@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58a4e9bb-0a20-4341-836a-1c0ede0f5958" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/airflow/modules/news_parser/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airflow/dags/custom_operators/proxypool_operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow/dags/custom_operators/proxypool_operator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airflow/dags/custom_operators/rss_news_operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow/dags/custom_operators/rss_news_operator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airflow/dags/dags_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow/dags/dags_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airflow/modules/parser/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airflow/modules/parser/random_headers_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow/modules/news_parser/random_headers_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airflow/modules/parser/web_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow/modules/news_parser/web_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airflow/modules/proxypool/proxypool_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow/modules/proxypool/proxypool_scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airflow/modules/proxypool/proxypool_validator.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow/modules/proxypool/proxypool_validator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airflow/modules/rss_news/rss_news_exporter.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow/modules/rss_news/rss_news_exporter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airflow/modules/rss_news/rss_news_producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/airflow/modules/rss_news/rss_news_producer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/docs/news-all.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/docs/news-all.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connect/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/connect/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connect/connectors/mongo-dbz-source.json" beforeDir="false" afterPath="$PROJECT_DIR$/connect/connectors/mongo-dbz-source.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connect/connectors/register_connectors.sh" beforeDir="false" afterPath="$PROJECT_DIR$/connect/connectors/register_connectors.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/create_default_topic.sh" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/create_default_topic.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.sh" beforeDir="false" afterPath="$PROJECT_DIR$/manage.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/minio/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/create_default_bucket.sh" beforeDir="false" afterPath="$PROJECT_DIR$/minio/create_default_bucket.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongo/init.sh" beforeDir="false" afterPath="$PROJECT_DIR$/mongo/init.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2lFbhckapIS2liWf1Q0BBTlb865" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58a4e9bb-0a20-4341-836a-1c0ede0f5958" name="Changes" comment="" />
+      <created>1724778892433</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724778892433</updated>
+      <workItem from="1724778894064" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

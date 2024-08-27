@@ -2,6 +2,7 @@
 
 The authenticated user can access all recent news.
 
+curl -H "Authorization: Token b9145067d48823e7449e237f8063468719f6268e" http://127.0.0.1:5000/api/v1/news/
 
 **URL** : `/api/v1/news/`
 

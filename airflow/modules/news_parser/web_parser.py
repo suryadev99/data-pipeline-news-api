@@ -4,7 +4,7 @@ import random
 from contextlib import closing
 from requests import get
 from log import log
-from parser.random_headers_list import headers_list
+from news_parser.random_headers_list import headers_list
 
 
 @log

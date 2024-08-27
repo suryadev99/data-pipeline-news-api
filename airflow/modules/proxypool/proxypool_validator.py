@@ -1,6 +1,6 @@
 import time
 from dataclasses import dataclass
-from parser import WebParser
+from news_parser import WebParser
 from log import log
 
 
