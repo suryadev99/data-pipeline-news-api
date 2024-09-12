@@ -128,5 +128,5 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 <!-- CONTACT -->
 ## Contact
-Please feel free to contact me if you have any questions.
+Please feel free to contact me if you have any questions and I would love to hear your comments.
 [linkedin](https://www.linkedin.com/in/surya-dev-01410072/) [@X](https://twitter.com/suryadev_99)
