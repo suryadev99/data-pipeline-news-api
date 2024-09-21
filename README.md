@@ -2,7 +2,7 @@
  [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
 
 
-**End to End Data Pipeline for News API** is an implementation of the data pipeline which consumes the latest news from RSS Feeds and makes them available for users via handy API.
+**End to End Data Pipeline for News API** is an implementation of the data pipeline which consumes the latest news from RSS Feeds and makes them available for users via handy API 
 The pipeline infrastructure is built using popular, open-source projects.
 
 **Access the latest news and headlines in one place.** :muscle:
